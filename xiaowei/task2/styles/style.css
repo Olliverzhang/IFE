@@ -1,0 +1,95 @@
+body{
+    width: 98%;
+    background-color: rgba(200,200,200,0.5);
+    }
+header {
+    background-color:rgba(0,0,0,0.8);
+    width: 100%;
+    height: 50px;
+    }
+#pic{
+    float: left;
+    margin-top:5px;
+    margin-left: 5px;
+    }
+header ul{
+    float: right;
+    margin-top: 0px;
+    }
+header a{
+    color: #fff;
+}
+header li :link {
+    text-decoration:none;
+    }
+header >ul :hover{
+      color: rgba(200,200,200,0.5);
+    }
+header >nav>ul> li{
+    display: inline;
+    line-height: 50px;
+    font-family: Arial;
+    margin: 10px;
+    }
+h2{
+    color: rgba(0,0,0,1);
+    }
+h3,pre{
+    color: rgba(150,150,150,1);
+    }
+div.path {
+    background-color: rgba(255,255,255,1);
+    box-shadow: 1px 1px 1px #333 ;
+    padding: 10px;margin:10px;
+ }
+ul{
+    list-style: none;
+    font-family:Arial;
+    }
+table{
+    width: 95%;
+    margin: 10px auto;
+    border-collapse:collapse;
+ }
+ th{
+     background-color: #000000;
+     color: #ffffff;
+     text-align: left;
+     }
+ tr:last-child {
+     background-color:rgb(150,150,150);
+     }
+ .submit[type="button"]{
+     background-color: blue;
+     color: #ffffff;
+     padding:10px;
+     width:100%;
+     margin: 0 auto;
+     border-radius: 5px;
+ }
+ .tip {
+        margin: 10px;
+		float: left;
+        text-align: right;
+        width: 31%;
+}
+.contents{
+    margin: 10px;
+}
+section p{
+    color: #777;
+    margin-left: 425px;
+}
+select{
+    margin: 10px;
+}
+textarea {
+    width: 200px;
+    height: 30px;
+}
+h2{
+    border-left: #bbb solid 4px;
+    padding: 4px;
+}
+
+ 

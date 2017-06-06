@@ -1,0 +1,632 @@
+body{
+    margin: 0px auto 0px auto ;
+    font-family: "微软雅黑";
+    overflow: auto;
+    width: 1280px;
+    height: 4554px;
+}
+#header{
+    margin-top: 10px;
+    height: 47px;
+}
+#header div.left{
+    float: left;
+}
+#header div.left span{
+    font-weight: bold;
+    margin-left: 5px;
+    position: relative;
+    top: -7px;
+}
+#header nav.right{
+    display: block;
+    position: relative;
+    float: right;
+}
+#header nav.right ul{
+    list-style: none;
+    float: left;
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+#header nav.right ul li{
+    float: left;
+}
+#header nav.right ul a.nav{
+    text-decoration: none;
+    color: #999;
+    margin-right:40px;
+    display: inline-block;
+    text-align: center;
+    width: 65px;
+    height: 37px;
+}
+#header nav.right ul a.login{
+    text-decoration: none;
+    color: rgb(231,79,77);
+    margin-right:40px;
+}
+#header nav.right li a.nav:hover{
+    display: block;
+    color: rgb(231,79,77);
+    border-bottom: rgb(231,79,77) solid 5px;
+}
+#main{
+    position: relative;
+    top: -50px;
+    height: 4439px;
+}
+div#top{
+    width: 1280px;
+    height: 854px;
+    background-image: url(file:///C:/Users/Zhanghj/Desktop/IFE/xiaowei/myife/task7/images/图一.png );
+}
+
+#top p.time{
+    font-size: 50px;
+    position: relative;
+    top: 229px;
+    left: 117px;
+    color: #fff;
+    width: 454px;
+    height: 50px;
+}
+#top p.new{
+    color: #fff;
+    position: relative;
+    height: 53px;
+    width: 295px;
+    top: 229px;
+    left: 124px;
+}
+#top a{
+    text-decoration: none;
+    font-size: 29px;
+    color: #fff;
+    display: block;
+    position: relative;
+    line-height: 65px;
+    text-align: center;
+    top: 259px;
+    left: 126px; 
+    width: 331px;
+    height: 65px;
+    background-color: rgb(231,79,77);
+}
+#fourtips{
+    padding-top: 30px;
+    height: 220px;
+    background-color: #fff;
+    top: 917px; 
+    width: 1280px;
+}
+#fourtips img{
+    display: block;
+    margin: 0px auto 0px auto;
+}
+#fourtips div.tipone,
+#fourtips div.tiptwo,
+#fourtips div.tipthree,
+#fourtips div.tipfour{
+    position: relative;
+    float: left;
+    display: block;
+    text-align: center;
+    width: 25%;
+}
+#fourtips p.text{
+    border-right: solid rgb(170,170,170) 2px; 
+}
+#wonder{
+    position: relative;
+    width: 1280px;
+    height: 360px;
+    background-color: rgb(237,237,236);
+}
+
+#wonder img{
+    position: relative;
+    top: 89px;
+    left: 596px;
+}
+#wonder p{
+    font-size: 53px;
+    color: rgb(161,161,161);
+    position: absolute;
+    top: 156px;
+    left: 216px;
+}
+#search{
+    position: relative;
+    top: -20px;
+    height: 341px;
+    /*background-image: cross-fade(url(file:///C:/Users/Zhanghj/Desktop/IFE/xiaowei/myife/task7/images/看地图.png),url(file:///C:/Users/Zhanghj/Desktop/IFE/xiaowei/myife/task7/images/图二遮罩.png),1) ;*/
+    background-image: url(file:///C:/Users/Zhanghj/Desktop/IFE/xiaowei/myife/task7/images/看地图.png);
+    /*background: url(file:///C:/Users/Zhanghj/Desktop/IFE/xiaowei/myife/task7/images/看地图.png) 0 0 no-repeat, url(file:///C:/Users/Zhanghj/Desktop/IFE/xiaowei/myife/task7/images/图二遮罩.png) 0 0 no-repeat;*/
+}
+#search #container{
+    width: 1280px;
+    height: 341px;
+    background-color: rgba(170,53,51,0.2); 
+    /*background-color: rgb(238,214,214);   这是一种错误的写法，会将所有内容全部覆盖，所以必须加透明度*/
+}
+#search p.one{
+    position: relative;
+    top: 53px;
+    text-align: center;
+    color: #fff;    
+    font-size: 21px;
+}
+#search p.two{
+    position: relative;
+    top: 53px;
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+}
+#search img{
+    position: relative;
+    top: 53px;
+    display: block;
+    margin: 0px auto;
+}
+#search form{
+    position: relative;
+    left: 108px;
+    top: 80px;
+    width: 1028px;
+}
+#search form select{
+    float: left;
+    position: relative;
+    width: 236px;
+    height: 36px;
+    margin-right: 18px;
+}
+
+#search input{
+    float: left;
+    width: 237px;
+    height: 36px;
+    padding: 0px;
+    border: none;
+    line-height: 36px;
+    background-color: rgb(231,79,77);
+    color: #fff;
+    font-family: "微软雅黑";
+    font-size:18px;
+    line-height: 18px; 
+}
+
+
+#picture{
+    position: relative;
+    top: -20px;
+    width: 1280px;
+    height: 605px;
+    background-color: rgb(247,247,247);
+}
+#picture #container{
+    position: relative;
+    top: 100px;
+    height: 385px;
+    background: url(file:///C:/Users/Zhanghj/Desktop/IFE/xiaowei/myife/task7/images/图三-图六文字.png) no-repeat center;
+}
+#picture #container img{
+    display: block;
+    margin: 0px auto;
+}
+
+#picture .one{
+    position: absolute; 
+    top: 89px;
+    left: 147px;  
+    width: 217px;
+    height: 338px;
+    background-color: #fff;
+    border: solid 1px #eee; 
+}
+#picture .two{
+    position: absolute; 
+    top: 142px;
+    left: 400px;  
+    width: 217px;
+    height: 338px;
+    background-color: #fff;
+    border: solid 1px #eee; 
+}
+#picture .three{
+    position: absolute; 
+    top: 89px;
+    left: 659px;  
+    width: 217px;
+    height: 338px;
+    background-color: #fff;
+    border: solid 1px #eee; 
+}
+#picture .four{
+    position: absolute; 
+    top: 89px;
+    left: 913px;  
+    width: 217px;
+    height: 338px;
+    background-color: #fff;
+    border: solid 1px #eee; 
+}
+/*#picture .one,
+#picture .two,
+#picture .three,
+#picture .four{
+    width: 217px;
+    height: 338px;
+    background-color: #fff;
+    border: solid 1px #eee;
+}*/
+/*#picture .one{
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}*/
+
+#newworld{
+    position: relative;
+    top: -40px;
+    width: 1280px;
+    height: 567px;
+    overflow: auto;
+}
+#newworld img{
+    position: relative;
+    display: block;
+    top: 268px;
+    float: right;
+}
+#newworld img.small{
+    left: 2px;
+}
+#newworld .pic{
+    float: left;
+    width: 851px;
+    height: 567px;
+    background: url(file:///C:/Users/Zhanghj/Desktop/IFE/xiaowei/myife/task7/images/图七.png) no-repeat;
+}
+#newworld .pic p.one,
+#newworld .pic p.two,
+#newworld .pic p.three,
+#newworld .pic p.four{
+    text-align: center;
+    color: #fff;
+}
+#newworld .pic p.one{
+    position: relative;
+    top: 132px;
+    font-size: 48px;
+}
+#newworld .pic p.two{
+    position: relative;
+    top: 12px;
+    font-size: 119px;
+}
+#newworld .pic p.three{
+    position: relative;
+    top: -103px;
+    line-height: 32px;
+    height: 62px;
+}
+#newworld .moreinformation{
+    float: right;
+    width: 429px;
+    height: 567px;
+    background-color: #fff;
+}
+#newworld .moreinformation img{
+    position: relative;
+    top: 165px;
+    right: 166px;
+    /*display: block;   因为父元素float:right,所以这个不能用了;
+    margin: 0px auto;*/
+}
+#newworld .moreinformation p.words{
+    position: relative;
+    top: 190px;
+    left: 72px;
+    /*display: block; 
+    margin: 0px auto;*/
+    font-size: 12px;
+    line-height: 32px;
+    color: rgb(176,176,176);
+    width: 292px;
+    height: 102px;
+}
+#newworld .moreinformation p.more{
+    width: 106px;
+    height:34px;
+    border: solid 1px rgb(231,79,77);
+    text-align: center;
+    line-height: 34px;
+    position: relative;
+    top: 230px;
+    left: 162px;
+}
+#newworld .moreinformation p.more a{
+    text-decoration: none;
+    color: rgb(231,79,77);
+}
+#newworld .moreinformation .dots{
+    position: relative;
+    top: 80px;
+    right: -156px;
+    width: 261px;
+    height: 12px;
+}
+#newworld .dots ul{
+    list-style: none;
+}
+#newworld .dots ul img{
+    margin-right:8px; 
+}
+#about{
+    position: relative;
+    top: -41px;
+    width: 1280px;
+    height: 521px;
+}
+#about .moreone{
+    text-align: center;
+    float: left;
+    width: 420px;
+    height: 521px;
+    color: #fff;
+    background-color: rgb(231,79,77);
+}
+#about .moretwo{
+    text-align: center;
+    float: left;
+    width: 430px;
+    height: 521px;
+}
+#about .rightpicture{
+    position: relative;
+    float: left;
+    width: 430px;
+    height: 521px;
+}
+#about .rightpicture .small{
+    position: absolute;
+    top: 260px;
+    left: -2px;
+}
+#about p,
+#about img.small{
+    position: relative;
+    top: 157px;
+}
+#about p.one{
+    position: relative;
+    top: 190px;
+    margin: 0px auto;
+    width: 169px;
+    height:44px;
+    border: solid 1px #fff;
+    /*text-align: center;*/
+    line-height: 44px;
+}
+#about p.one a{
+    text-decoration: none;
+    color: #fff;
+}
+#about p.two{
+    position: relative;
+    top: 190px;
+    margin: 0px auto;
+    width: 169px;
+    height:44px;
+    border: solid 1px rgb(231,79,77);
+    /*text-align: center;*/
+    line-height: 44px;
+}
+#about p.two a{
+    color: rgb(231,79,77) ;
+    text-decoration: none;
+}
+#voluntory p{
+    text-align: center;
+    font-size: 10px;
+    color: rgb(176,176,176);
+}
+#voluntory p.strong{
+    font-size: 20px;
+    color: #000;
+}
+#voluntory hr{
+    width: 32px;
+    height: 2px;
+    background-color: rgb(231,79,77);
+    border: none;
+}
+#information{
+    width: 1002px;
+    height: 283px;
+    position: relative;
+    margin: 0px auto;
+}
+#information .joinus{
+    float: left;
+    width: 289px;
+    margin-right: 73px; 
+    height: 283px;
+}
+#information .joinus p{
+    margin: 0px 0px 20px 0px;
+    font-size: 11px;
+    color: rgb(176,176,176);
+}
+#information .joinus p.strong{
+    font-size: 13px;
+    color: #000;
+    margin: 0px 0px 10px 0px;
+}
+#information .joinus p.more{
+    position: relative;
+    top: -30px;
+    margin: 0px 0px;
+    float: right;
+    color: rgb(150,150,150);
+}
+#information form{
+    position: relative;
+    float: right;
+    width: 640px;
+    height: 283px;
+}
+/*这里不可以用id#form*/
+#information form div.left,
+#information form div.right{
+    font-size: 11px;
+    position: relative;
+    float: left;
+    width: 310px;
+    height: 41px;
+    line-height:41px;
+    background-color: rgb(237,237,239);
+    margin-right: 17px;
+    margin-bottom:13px; 
+    color: rgb(108,104,104);
+}
+#information form .textarea{
+    float: left;
+    margin-bottom: 13px;
+    background-color: rgb(237,237,239);
+    font-size: 11px;
+    width: 640px;
+    height: 121px;
+    font-family: "微软雅黑";
+    color: rgb(108,104,104);
+}
+#information form p{
+    padding-left: 9px;
+}
+#information form div.right{
+    float: right;
+    margin-right: 0px;
+}
+#information form div label{
+    float: left;
+    padding-left:9px; 
+}
+#information form input{
+    width: 200px;
+    height: 38px;
+    float: left;
+    outline: none;
+    border: none;
+    background-color: inherit;
+}
+/*input::-webkit-input-placeholder{
+    font-family: "微软雅黑";
+    padding-left: 17px;
+    font-size: 12px;
+    color: rgb(108,104,104);
+}*/
+/*placeholder的方法不适合本次编辑*/
+#information form textarea{
+    width: 600px;
+    height: 50px;
+    background-color: rgb(237,237,239);
+    border: none;
+    resize: none;/*去除右下角斜线*/
+    outline: none;
+}
+#information    form input.submit{
+    width: 640px;
+    height: 41px;
+    border: none;
+    background-color: rgb(237,237,239);
+    font-family: "微软雅黑";
+    cursor: pointer;
+}
+#contactus{
+    width: 1280px;
+    height: 416px;
+    background-color: rgb(50,54,62);
+    color: #fff;
+    text-align: center;
+    margin-top: 150px;
+}
+#contactus p{
+    position: relative;
+    top: 90px;
+    font-size: 10px;
+    line-height: 10px;
+}
+#contactus p.strong{
+    position: relative;
+    top: 94px;
+    font-size: 20px;
+    line-height: 20px;
+}
+#contactus #address{
+    float: left;
+    left: 385px;
+    position: relative;
+    top: 100px;
+    width: 511px;
+    height: 41px;   
+}
+#contactus #address .text{
+    float: left;
+    width: 431px;
+    height: 39px;
+    line-height: 39px;
+    border: none;
+    outline:none;
+
+}
+#contactus #address .submit{
+    float: right;
+    width: 80px;
+    height: 41px;
+    line-height: 41px;
+    border: none;
+    background-color: rgb(111,114,120);
+    font-family: "微软雅黑";
+    font-size: 13px;
+    color: #fff;
+    cursor: pointer;
+}
+#contactus #botton{
+    position: relative;
+    top:180px;
+    left: 35px;
+}
+#contactus #botton ul{
+    list-style: none;
+}
+#contactus #botton ul li{
+    float: left;
+    margin-right:29px; 
+}
+#footer{
+    position: relative;
+    width: 1280px;
+    height: 58px;
+    background-color: rgb(47,48,57);
+}
+#footer p{
+    float: left;
+    position: relative;
+    font-size: 11px;
+    color: #fff;
+    margin: 0px;
+    left: 75px;
+    top: 30px;
+}
+#footer a{
+    float: right;
+    font-size: 11px;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    top: 30px;
+    right: 40px;
+}
