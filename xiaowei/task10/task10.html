@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <style>
+        @media (max-width: 640px){
+            #total{
+                width: 640px;
+            }
+        }
+            div#total{
+                display: flex;
+                flex-flow: row wrap;
+                -ms-flex-flow: row wrap;
+                align-items: center;
+                justify-content:space-between;
+            }
+            div#one,
+            div#two,
+            div#three,
+            div#four
+            {
+                border: solid 1px #f00;
+                width: 150px;
+                margin: 20px;
+                float: left;
+                /*width: 25%;*/
+            }
+            div#one{
+                height: 120px;
+                /*justify-content: flex-start;*/
+            }
+            div#two{
+                height: 100px;
+            }
+            div#three{
+                height: 40px;
+            }
+            div#four{
+                height: 200px;
+                border-color: #00f;
+                /*align-self: flex-start;*/
+            }
+        </style>
+    </head>
+    <body>
+        <div id="total">
+            <div id="one"></div>
+            <div id="two"></div>
+            <div id="three"></div>
+            <div id="four"></div>
+        </div>
+    </body>
+</html>
